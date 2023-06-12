@@ -21,7 +21,7 @@ function Person2(name, age, gender) {
 let person1 = new Person2("SAHA", 30, "MAN");
 let person2 = new Person2("사람", 30, "man");
 
-//1-3 접근 방법
+//1-3 접근 방법 person1['name']
 console.log("1", person1.name);
 console.log(person2.name);
 console.log("---------------------------");
