@@ -6,13 +6,15 @@
 // 변수 참조 - 할당된 값을 읽어옴
 // 선언방법 let, const var는 쓰지 말기
 
+// 재할당 가능!!!
 let myLet = "hello World";
 console.log(myLet);
 
-const myConst = "hello World"
+// const는 재할당이 불가능!!!
+const myConst = "hello World";
 console.log(myConst);
 
-// ex)
+// ex) 보통은 한 줄로 쓴다
 let myLet2;
-myLet2 = "helloWorld"
+myLet2 = "helloWorld";
 console.log(myLet2);
