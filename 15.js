@@ -64,7 +64,7 @@ console.log(SAHA);
 // console.log(saha1 === saha2);
 // // 문자열화 시킨다.
 // console.log(JSON.stringify(saha1) === JSON.stringify(saha2));
-console.log('--------------------------')
+console.log("--------------------------");
 
 //1-5 객체 병합 ...전개연산자
 let saha1 = {
@@ -75,5 +75,5 @@ let saha2 = {
   gender: "남자",
 };
 
-let perfectSaha = {...saha1, ...saha2}
-console.log(perfectSaha)
+let perfectSaha = { ...saha1, ...saha2 };
+console.log(perfectSaha);
