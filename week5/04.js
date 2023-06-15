@@ -50,7 +50,7 @@ class Rectangle {
 }
 
 //인스턴스생성
-const rect1 = new Rectangle(10, 20);
+const rect1 = new Rectangle(0, 20);
 // const rect1 = new Rectangle(10, 30)
 // const rect1 = new Rectangle(20, 40)
 rect1.getArea()
